@@ -2,6 +2,18 @@
 
 const switcher = document.querySelector('.btn');
 
+class Header extends React.Component {
+    render() {
+       const mystyle = {
+           color: "white",
+           fontFamily: "Arial"
+       };
+       return (
+           <div><h1>Hallo</h1></div>
+       );
+    }
+}
+
 switcher.addEventListener('click', function () {
     document.body.classList.toggle('dark-theme')
 
